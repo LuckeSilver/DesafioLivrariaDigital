@@ -1,0 +1,99 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background: #04162e;
+  color: #fff;
+  align-items: center;
+  padding: 10px;
+}
+
+header > h1 {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+}
+li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+}
+
+#banner img {
+  width: 1000px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+div#books {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.oneBooks {
+  width: 400px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.oneBooks img {
+  width: 220px;
+  height: 290px;
+  cursor: pointer;
+}
+
+#livros {
+  margin-top: 70px;
+}
+
+#livros>h2 {
+  margin-left: 90px;
+}
+
+footer {
+  width: 1200px;
+  background: #ccc;
+  margin: auto;
+  padding-left: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.rodape {
+  width: 100%;
+}
+
+footer h3{
+  margin-left: 75px;
+}
+
+footer ul {
+  flex-direction: column;
+}
+
+footer li {
+  padding: 5px;
+}
